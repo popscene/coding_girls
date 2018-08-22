@@ -21,8 +21,6 @@ justify-content: space-between;
 	text-transform: uppercase;
 }
 
-
-
 .title {
 	color: white;
 	font-size: 40px;
@@ -52,9 +50,13 @@ justify-content: space-between;
 	display: flex;
 	justify-content: space-between;
 	background-color: #a2ca28;
-	margin: 0 50px 60px 50px;
+	width: 1180px;
+	margin: 0 auto;
 }
 
+.ben_img {
+	height: 40px;
+}
 .benefits {
 	display: flex;
 	justify-content: space-between;
