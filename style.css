@@ -1,3 +1,15 @@
+@font-face {
+	src: url(./fonts/AvenirNext/AvenirNextCyr-Regular.ttf);
+	font-family: AvenirNext;
+	font-weight: 400;
+}
+
+@font-face {
+	src: url(./fonts/AvenirNext/AvenirNextCyr-Light.ttf);
+	font-family: AvenirNext;
+	font-weight: 100;
+}
+
 .header {
 display: flex;
 justify-content: space-between;
@@ -19,6 +31,8 @@ justify-content: space-between;
 	color: white;
 	font-size: 13px;
 	text-transform: uppercase;
+	font-family: AvenirNext, sans-serif;
+	font-weight: 400;
 }
 
 .title {
@@ -26,6 +40,9 @@ justify-content: space-between;
 	font-size: 40px;
 	text-transform: uppercase;
 	margin: 300px 0 0 118px;
+	font-family: AvenirNext, sans-serif;
+	font-weight: 100;
+
 }
 
 .subtitle {
