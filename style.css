@@ -1,0 +1,126 @@
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+	margin: 60px 0 0 52px;
+}
+
+.menu {
+	display: flex;
+	width: 500px;
+	justify-content: space-between;
+	list-style: none;
+	margin: 60px 70px 0 0;
+}
+
+.menu-nav {
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.title {
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 300px 0 0 118px;
+}
+
+.subtitle {
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0 0 0 275px;
+}
+
+.backgr-img {
+	background-image: url("./images/background.jpg");
+	background-repeat: no-repeat;
+	height: 800px;
+	background-size: contain;
+}
+
+.backgr_color {
+	background-color: #a2ca28;
+}
+
+.main_benefits {
+	display: flex;
+	justify-content: space-between;
+	background-color: #a2ca28;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.ben_img {
+	height: 40px;
+}
+
+.ben_links {
+	color: white;
+	text-decoration: none;
+}
+
+.benefits {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	background-color: #a2ca28;
+}
+
+.ben_title {
+	color: white;
+	font-size: 24px;
+}
+
+.ben_list {
+	color: white;
+	font-size: 14px;
+	padding: 40px 20px 60px 0;
+
+}
+
+.title_2 {
+	color: #a2ca28;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.subtitle_2 {
+	color: #fd634e;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.fact_1 {
+	display: flex;
+	justify-content: center;
+	background-color: #a2ca28;
+}
+
+.fact_2 {
+	display: flex;
+	justify-content: center;
+	background-color: #a2ca28;
+}
+
+.fact_text {
+	color: #656e74;
+}
+
+.fact_list {
+	width: 300px; 
+	height: 294px;
+	background-color: #ffffff;
+	padding: 40px 50px 60px 50px;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+
+.fact_link {
+	color: #a2ca28;
+}
+
+
