@@ -117,6 +117,21 @@ justify-content: space-between;
 	background-color: #a2ca28;
 }
 
+.image1-hover {
+	height: 394px;
+	width: 794px;
+}
+
+.image1-hover:before{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 1;
+}
+
 .fact_2 {
 	display: flex;
 	justify-content: center;
@@ -125,6 +140,15 @@ justify-content: space-between;
 
 .fact_text {
 	color: #656e74;
+}
+
+.img2_text {
+	position: absolute;
+	text-align: center;
+	/*top: 10px;
+	left: 40px;
+	z-index: 2;*/
+
 }
 
 .fact_list {
